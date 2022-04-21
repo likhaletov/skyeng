@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension URL {
+public extension URL {
     static func makeUrl(_ string: String) -> URL? {
         guard
             let urlComponents = URLComponents(string: string),
